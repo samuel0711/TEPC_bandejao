@@ -6,6 +6,7 @@ module.exports = {
       colors:{
         "band-red": "#9E1313",
         "band-white":"#F7F7F7",
+        "night-red": "#FF4E4E"
       },
       fontFamily: {
         'Bitter': ['"Bitter"', 'serif'],

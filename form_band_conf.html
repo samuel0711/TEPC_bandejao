@@ -48,7 +48,7 @@
                     <img src="/bandejao/public/img/bandejando_met.png" alt="">
                 </div>
                 <div class="flex sm:hidden flex-1 justify-end">
-                    <a href="form_band_night_temp.html"><i class="text-2xl fas fa-bars"></i></a>
+                    <i class="text-2xl fas fa-bars"></i>
                 </div>
                 <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-band-red uppercase text-xs">
                         <li class="cursor-pointer">Horários</li>
@@ -59,39 +59,29 @@
         </header>
         <section class="bg-band-white mt-2 py-3">
             <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
-                <h1 class="text-3xl text-center text-band-blue">A próxima refeição é o almoço</h1>
+                <h1 class="text-3xl text-center text-band-blue">O seu almoço está reservado para as 12:45</h1>
                 <div class="text-center" id="time"></div>
-                <p class="text-center text-band-grey mt-4">
-                    Você ainda tem tempo de comprar tiquetes para a próxima refeição!
-                </p>
             </div>
         </section>
         <section class="">
             <div class="flex flex-col rounded-md shadow-md lg:mb-16 sm:mb-14">
                 <div class="mx-3 p-6 flex flex-col items-center">
-                    <i class="far fa-sun text-yellow-400 text-6xl"></i>
+                    <i class="far fa-sun text-green-400 text-6xl"></i>
                     <hr class="border-b border-band-white">
                     <form action="http://localhost:8000" method="post">
                         <!--<p><input type="text" name="matricula" id="matricula" title="Somente números" pattern="[1-9]{1}[0-9]{9}" onkeypress="return onlyNumberKey(event)" maxlength="10"></p>-->
                         <div class="text-center">
-                            <p>Escolha um horário</p>
-                            <select class="rounded bg-gray-200" name="hor_disp" id="horarios">
-                                <option value="0" selected disabled hidden>-----</option>
-                                <option disabled value="1145">11h45</option>
-                                <option disabled value="1215">12h15</option>
-                                <option value="1245">12h45</option>
-                                <option value="1315">13h15</option>
-                            </select>
+                            <p>Deseja cancelar a reserva?</p>
                         </div>
                         <div class="flex p-6">
-                            <a href="form_band_conf.html"><button class="flex-1 btn btn-red" type="button" required>Agendar</button></a>
+                            <a href="form_band.html"><button class="flex-1 btn btn-red" type="button" required>Cancelar</button></a>
                         </div>
                     </form>
                 </div>
             </div>
             
         </section>
-        <footer class="bg-band-red py-8 md:mt-20 sm:mt-10 xl:mt-44">
+        <footer class="bg-band-red pt-4 pb-28 sm:mb-40 xl:mt-40 xl:py-20 lg:mt-20 lg:pb-20 md:mt-24 md:py-14">
             <div class="container flex flex-col md:flex-row items-center">
                 <div class="hidden sm:flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12">
                     <p class="text-white">Entre em contato conosco: (21) 4002-8922</p>

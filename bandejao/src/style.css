@@ -9,3 +9,7 @@
 .btn-red{
     @apply bg-band-red text-white;
 }
+
+.btn-night-red{
+    @apply bg-night-red text-white;
+}
