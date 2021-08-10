@@ -7,8 +7,8 @@ var mongoose = require('mongoose')
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var mongoDB = 'mongodb://127.0.0.1/dbbandejao';
-mongoose.connect(mongoDB, { useNewUrlParser: true});
+var mongoDB = 'mongodb://127.0.0.1:27017';
+mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true});
 
 var app = express();
 
